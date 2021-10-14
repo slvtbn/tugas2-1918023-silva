@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TugasPraktikum2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmen_satu">Ini Adalah Fragment A</string>
+    <string name="fragment_b">Ini Adalah Fragment B</string>
+    <string name="fragment_c">Ini Adalah Fragment C</string>
+    <string name="fragmen_d">Ini Adalah Fragment D</string>
+</resources>

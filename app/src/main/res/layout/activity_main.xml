@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.5"
+       android:orientation="horizontal">
+
+      <fragment
+          android:id="@+id/fragment_a"
+          android:name="com.example.tugaspraktikum2.fragmentA"
+          android:layout_width="0px"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5" />
+
+      <fragment
+          android:id="@+id/fragment_b"
+          android:name="com.example.tugaspraktikum2.fragmentB"
+          android:layout_width="0px"
+          android:layout_height="match_parent"
+          android:layout_weight="1" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+      <fragment
+          android:layout_width="0px"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:id="@+id/fragment_c"
+          android:name="com.example.tugaspraktikum2.fragmentC"/>
+
+      <fragment
+          android:layout_width="0px"
+          android:layout_height="match_parent"
+         android:layout_weight="0.5"
+          android:id="@+id/fragment_d"
+          android:name="com.example.tugaspraktikum2.fragmentD"/>
+   </LinearLayout>
+
+
+</LinearLayout>
